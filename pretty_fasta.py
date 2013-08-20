@@ -3,7 +3,7 @@
 
 
 '''
-Simple script that converts an 'ugly' FASTA file -- those for which the sequence contains line 
+Simple script that converts an 'ugly' FASTA file -- in which the sequence contains line 
 breaks -- into a 'pretty' FASTA file with each sequence on a single line.  
 
 Dependancies: biopython, python >=2.7
