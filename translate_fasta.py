@@ -14,7 +14,7 @@ import argparse
 from Bio import SeqIO
 
 
-parser = argparse.ArgumentParser("Converts an 'ugly' FASTA file (with sequences spanning multiple lines) to a 'pretty' one.")
+parser = argparse.ArgumentParser("Translates a FASTA file of nucleotide sequences.")
 parser.add_argument('-in', dest='in_file', required=True, help="Name of the input FASTA file. Required")
 parser.add_argument('-out', dest='out_file', required=True, help="Name of the ouput (translated) FASTA file. Required.")
 args = parser.parse_args()
